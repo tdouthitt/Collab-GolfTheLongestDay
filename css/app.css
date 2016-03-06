@@ -1,0 +1,56 @@
+#heading {
+  background-color: #ddd;
+  color: #e3d123;
+  height: 600px;
+}
+#heading:hover {
+  background-color: #e3d123;
+  height: 600px;
+}
+#golf-heading-link {
+  color:  #64368e;
+  font-size: 4.5em;]
+}
+#golf-heading-link:hover {
+  text-decoration: none;
+  color:  #6F3C9E;
+}
+.golf-container-link {
+  text-align: center;
+}
+#banner {
+  height: 90%;
+  width: 100%;
+}
+
+#date {
+  margin-top: -30px;
+  font-size: 2.5em;
+  background-color: #333;
+  text-align: center;
+  color: #ddd;
+  height: 450px;
+}
+#golf {
+  margin-top: -30px;
+  width: 100%;
+  height: 450px;
+  background-color: #e3d123;
+}
+#dakota-title {
+  margin-left: 3%;
+}
+body {
+  background-color: #64368e;
+}
+#sponser {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#contact {
+  height: 500px;
+}
+#contact-form {
+  width: 60%;
+  margin-top: -20px;
+}
