@@ -29,16 +29,32 @@
   background-color: #333;
   text-align: center;
   color: #ddd;
-  height: 450px;
+  height: 570px;
+}
+
+#date h3 {
+  color: #bbb;
+}
+
+#date p {
+  margin-top: 20px;
+  font-size: .6em;
 }
 #golf {
   margin-top: -30px;
   width: 100%;
-  height: 450px;
+  height: 570px;
   background-color: #e3d123;
+}
+#golf p {
+  margin: 30px 10px 0 10px;
+  color: #222;
+  font-size: 1.3em;
 }
 #dakota-title {
   margin-left: 3%;
+  margin-top: 40px;
+  font-size: 2.6em;
 }
 body {
   background-color: #64368e;
@@ -46,11 +62,22 @@ body {
 #sponser {
   margin-top: 40px;
   margin-bottom: 40px;
+  height: 200px;
+}
+.sponsorWell {
+  background-color: #e3d123;
+}
+#sponser p {
+  color: #ccc;
 }
 #contact {
   height: 500px;
+  background-color: #333;
+  color: #ccc;
+}
+#contact h2 {
+  margin-top: -10px;
 }
 #contact-form {
-  width: 60%;
-  margin-top: -20px;
+  margin-top: 20px;
 }
