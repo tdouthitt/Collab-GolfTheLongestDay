@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Golf The Longest Day | Alzhiemer's Charity</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Join The Longest Day in helping Alzhiemers. Become a player or make a donation today to help those suffering with Alzhiemer's. Contact us Today! #TheLongestDay #AlzhiemersAssociation">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.deep_purple-amber.min.css" />
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL1U6u_rW8lVfQYNYZ-nuIHtbUiJW8NJU&callback=initMap" async defer></script>
+    <script src="js/Main.js" async defer></script>
+
+</head>
+<body>
+    <!-- START NAVIGATION -->
+
+    <div>
+        <!-- Always shows a header, even in smaller screens. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title"><a href="index.html">Golf The Longest Day</a></span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation. We hide it in small screens. -->
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+                        <a class="mdl-navigation__link" href="">Sign Up To Play</a>
+                        <a class="mdl-navigation__link" href="">Course Information</a>
+                        <a class="mdl-navigation__link" href="">Support a Team</a>
+                        <a class="mdl-navigation__link" href="">Become a Sponsor</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title"><a href="index.html">Home</a></span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">Players</a>
+                    <a class="mdl-navigation__link" href="">Course</a>
+                    <a class="mdl-navigation__link" href="">Donate</a>
+                    <a class="mdl-navigation__link" href="">Sponsors</a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    <div id="wrapper">
+
+                        <div id="header-container">
+                            <img id="header" src="/img/golf-backdrop.png" />
+                            <div id="event-summary-container">
+                                <div class="row">
+
+                                    <div class="col-sm-1">
+                                    </div>
+
+                                    <div class="col-sm-5">
+                                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                            <div class="mdl-card__title">
+                                                <img src="/img/longest-day-logo-white.png" />                                                
+                                            </div>
+                                            <div class="mdl-card__supporting-text">
+                                                The Longest Day is a team event to raise funds and awareness for the Alzheimer's Association.
+                                                Held Annually on the summer solstice, the duration of the sunrise-to-sunset event symbolizes the challenging journey of those living with the disease and their caregivers.
+                                            </div>
+                                            <div class="mdl-card__actions mdl-card--border">
+                                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://act.alz.org/site/TR?fr_id=8480&pg=entry" target="_blank">
+                                                    Learn More
+                                                </a>
+                                            </div>
+                                            <div class="mdl-card__menu">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+
+                                        <div id="event-description-container">
+
+                                            <h3>The Longest Day - Golf Marathon</h3>
+
+                                            <div id="date">
+                                                <i class="date-icon material-icons">&#xE614;</i>&nbsp;<h4>June 20, 2016</h4>
+                                            </div>                                                                                        
+
+                                            <p>
+                                                In honor of the Longest Day we are hosting an all day golf tournament to raise money to combat the disease.
+                                            </p>
+                                            <p>
+                                                <strong>
+                                                    Put your passion for golf to work for good!
+                                                    <br />
+                                                    Make a team, set a goal, raise money and golf, golf, golf!
+                                                </strong>
+                                                <br /><br />                                                
+
+                                                Would you like to test your endurance? Play in a two person team from daylight to dark! Do you have 100 holes in your bag? 110? This is the day to see.
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>                        
+                        <div id="event-details-container" class="container">
+                            <div class="row">
+                                <div id="golf-detail">
+                                    <div class="col-sm-3">
+                                        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                                            <div class="mdl-card__title mdl-card--expand player-icon">
+                                                <h2 class="mdl-card__title-text">Players</h2>
+                                            </div>
+                                            <div class="mdl-card__supporting-text">
+                                                Create or join a team and see if you have what it takes to golf the longest day
+                                            </div>
+                                            <div class="mdl-card__actions mdl-card--border">
+                                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="Player.aspx">
+                                                    Player Information
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                                            <div class="mdl-card__title mdl-card--expand course-icon">
+                                                <h2 class="mdl-card__title-text">Course</h2>
+                                            </div>
+                                            <div class="mdl-card__supporting-text">
+                                                Enjoy the excisite Dakota Dunes Country Club designed by golf legend, Arnold Palmer
+                                            </div>
+                                            <div class="mdl-card__actions mdl-card--border">
+                                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://www.dakotadunescountryclub.com/" target="_blank">
+                                                    View the Course
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--<img class="participant-icon" src="img/golf-course.png" />-->
+
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                                            <div class="mdl-card__title mdl-card--expand gift-icon">
+                                                <h2 class="mdl-card__title-text">Donate</h2>
+                                            </div>
+                                            <div class="mdl-card__supporting-text">
+                                                Help out without all the work by supporting your favorite teams and helping them reach their goals
+                                            </div>
+                                            <div class="mdl-card__actions mdl-card--border">
+                                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://act.alz.org/site/Donation2;jsessionid=31CFF21D4739F1B497F6905615B73BC9.app207a?idb=2091170342&df_id=29520&FR_ID=8480&mfc_pref=T&PROXY_ID=322843&PROXY_TYPE=22&29520.donation=form1" target="_blank">
+                                                    Support Your Favorite Team
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--<img class="participant-icon" src="img/golf-club.png" />-->
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                                            <div class="mdl-card__title mdl-card--expand sponsor-icon">
+                                                <h2 class="mdl-card__title-text">Sponsor</h2>
+                                            </div>
+                                            <div class="mdl-card__supporting-text">
+                                                Show your support for the cause and advertise at the same time by becoming a sponsor!
+                                            </div>
+                                            <div class="mdl-card__actions mdl-card--border">
+                                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="Sponsor.aspx">
+                                                    Become a sponsor
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!--<img class="participant-icon" src="img/golf-club.png" />-->
+                                    </div>
+                                </div>
+                            </div>
+                            <a id="course-anchor"></a>
+                        </div>
+                        <footer class="mdl-mega-footer">
+                            <div class="mdl-mega-footer__middle-section">
+
+                                <div class="container">
+                                    <div class="row">                                       
+
+                                        <div class="col-sm-6">
+                                            <!--<div class="mdl-mega-footer__drop-down-section">
+                                                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                                <h1 class="mdl-mega-footer__heading">Features</h1>
+                                                <ul class="mdl-mega-footer__link-list">
+                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="#">Terms</a></li>
+                                                    <li><a href="#">Partners</a></li>
+                                                    <li><a href="#">Updates</a></li>
+                                                </ul>
+                                            </div>-->
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <h4>Contact Me</h4>
+                                            <div id="contact-form">
+                                                <form>
+                                                    <label for="name">Name:</label>
+                                                    <input class="form-control" type="text" name="name" placeholder="Jane Doe" required>
+                                                    <br>
+                                                    <label for="email">Email:</label>
+                                                    <input class="form-control" type="email" name="email" placeholder="jdoe@example.com" required>
+                                                    <br>
+                                                    <label for="message">Message:</label>
+                                                    <textarea class="form-control" rows="5" id="message" name="message" placeholder="text..." required> </textarea>
+                                                    <br>
+                                                    <button class="btn btn-success btn-block" type="submit" name="submit">Submit Message</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="mdl-mega-footer__bottom-section">
+                                <div class="mdl-logo">Golf The Longest Day</div>
+                                <ul class="mdl-mega-footer__link-list">
+                                    <li><a href="#">Privacy & Terms</a></li>
+                                </ul>
+                            </div>
+
+                        </footer>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <!-- END NAVIGATION -->
+
+
+
+</body>
+</html>

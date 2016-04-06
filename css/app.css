@@ -1,0 +1,212 @@
+/*#region GENERAL */
+
+#wrapper{
+    height: 100%;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.mdl-layout-title a{
+    color: white;
+}
+
+.mdl-layout-title a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.mdl-layout__drawer .mdl-layout-title a{
+    color: #424242;
+}
+
+/*#endregion */
+
+/*#region HEADER */
+
+#header{    
+    width: 100%;  
+    height: 600px;  
+}
+
+.demo-layout-transparent {
+    background: url(/img/golf-backdrop.png) center / cover;    
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+
+/*.mdl-layout__header{
+    background-color: #555555 !important;
+}*/
+
+/*#endregion */
+
+/*#region EVENT SUMMARY */
+
+.mdl-shadow--2dp{
+    margin-top: 150px;
+}
+
+#date h4{
+    display: inline;
+    vertical-align: middle;
+}
+
+#date i{
+    display: inline;
+    vertical-align: middle;
+}
+
+.mdl-card__supporting-text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo-card-wide > .mdl-card__title{
+    background-color: rgb(103,58,183) !important;
+}
+
+.mdl-card__title img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#event-summary-container {
+    margin-top: -650px;
+    font-size: 2.5em;
+    background-color: #424242;
+    text-align: center;
+    color: #fff;
+    height: 650px;
+}
+
+#event-summary-container h3 {
+    color: #fff;
+}
+
+#event-summary-container p {
+    margin-top: 20px;
+    font-size: .6em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#event-description-container{
+    margin-top: 200px;
+}
+
+/*#endregion */
+
+/*#region EVENT DETAILS*/
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  color: #444444
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  height: 215px;
+}
+
+.demo-card-square > .mdl-card__title.player-icon {
+  background:
+    url('/img/user-group.png') bottom right 25% no-repeat rgb(103,58,183);
+}
+
+.demo-card-square > .mdl-card__title.course-icon {
+  background: url('/img/golf-course.png') bottom right 25% no-repeat rgb(103,58,183);
+    background-position-x: 150px;
+    background-position-y: 55px;
+}
+
+.demo-card-square > .mdl-card__title.gift-icon {
+  background:
+    url('/img/gift-wrapped.png') bottom right 25% no-repeat rgb(103,58,183);
+  background-position-x: 150px;
+    background-position-y: 55px;
+}
+
+.demo-card-square > .mdl-card__title.sponsor-icon {
+  background:
+    url('/img/sponsor.png') bottom right 25% no-repeat rgb(103,58,183);
+}
+
+.date-icon{
+    margin-top: 5px;
+}
+
+
+#event-details-container {
+  margin-top: -155px;
+  width: 100%;
+  height: 550px;
+}
+
+#golf-detail {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#event-details-container p {
+  margin: 30px 10px 0 10px;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.participant-icon{
+    margin-left: 25%;
+}
+
+/*#endregion EVENT DETAILS*/
+
+/*#region CONTACT FORM */
+
+#contact {
+  height: 500px;
+  background-color: #333;
+  color: #ccc;
+}
+#contact h2 {
+  margin-top: -10px;
+}
+#contact-form {
+  margin-top: 20px;
+}
+
+/*#endregion */
+
+
+/*#region PLAYER PAGE */
+
+#div-player-header{
+
+}
+
+#div-player-header h3{
+    display: inline;
+    vertical-align: middle;
+}
+
+#div-player-header img{
+    display: inline;
+    vertical-align: middle;
+}
+/*#endregion */
+
