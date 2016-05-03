@@ -27,78 +27,106 @@
                     <div class="mdl-layout-spacer"></div>
                     <!-- Navigation. We hide it in small screens. -->
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
-                        <a class="mdl-navigation__link" href="">Sign Up To Play</a>
-                        <a class="mdl-navigation__link" href="">Course Information</a>
-                        <a class="mdl-navigation__link" href="">Support a Team</a>
-                        <a class="mdl-navigation__link" href="">Become a Sponsor</a>
+                        <a class="mdl-navigation__link" href="Player.html">Sign Up To Play</a>
+                        <a class="mdl-navigation__link" href="http://www.dakotadunescountryclub.com/" target="_blank">Course Information</a>
+                        <a class="mdl-navigation__link" href="https://act.alz.org/site/Donation2;jsessionid=31CFF21D4739F1B497F6905615B73BC9.app207a?idb=2091170342&df_id=29520&FR_ID=8480&mfc_pref=T&PROXY_ID=322843&PROXY_TYPE=22&29520.donation=form1" target="_blank">Support a Team</a>
+                        <a class="mdl-navigation__link" href="Sponsor.html">Become a Sponsor</a>
                     </nav>
                 </div>
             </header>
             <div class="mdl-layout__drawer">
                 <span class="mdl-layout-title"><a href="index.html">Home</a></span>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Players</a>
-                    <a class="mdl-navigation__link" href="">Course</a>
-                    <a class="mdl-navigation__link" href="">Donate</a>
-                    <a class="mdl-navigation__link" href="">Sponsors</a>
+                    <a class="mdl-navigation__link" href="Player.html">Players</a>
+                    <a class="mdl-navigation__link" href="http://www.dakotadunescountryclub.com/" target="_blank">Course</a>
+                    <a class="mdl-navigation__link" href="https://act.alz.org/site/Donation2;jsessionid=31CFF21D4739F1B497F6905615B73BC9.app207a?idb=2091170342&df_id=29520&FR_ID=8480&mfc_pref=T&PROXY_ID=322843&PROXY_TYPE=22&29520.donation=form1" target="_blank">Donate</a>
+                    <a class="mdl-navigation__link" href="Sponsor.html">Sponsors</a>
                 </nav>
             </div>
             <main class="mdl-layout__content">
-                <div class="page-content">
-                    <div id="wrapper">
+                <div id="wrapper">
 
-                        <div id="event-details-container" class="container">
-                            <div class="row">
-                                <div id="golf-detail">
-                                    <div class="col-sm-3">
-                                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div id="div-player-details">
+                                <div id="div-player-header">
+                                    <img src="img/user-group-dark.png" width="128" height="128" />
+                                    <h3>Player Information</h3>
+                                </div>
+                                <div class="col-sm-4">
+                                    <p>
+                                        Would you rather support a geat cause but not limp home?
+                                        Bring in more friends and "tag team" your way through the daylight hours.
+                                        For pace of play we ask that only 2 members of your team play at one time.
+                                    </p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <p>
+                                        A $200 registration fee per team reserves your spot on the course, and not just any course...
+                                        The Dakota Dunes Country Club, designed by golf legend, Arnold Palmer.
+                                    </p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <p>
+                                        Golfers will be provided a cart, breakfast, lunch, dinner and a sunset after-party on the Terrace!
+                                        We ask that each team set a minimum goal to raise $1000 for the Alzheimer's Association.
+                                    </p>
                                 </div>
                             </div>
-                            <a id="course-anchor"></a>
+                            <div id="div-signup-container">
+                                <button id="btnSignUp" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    Sign Up
+                                </button>
+                            </div>
+                            <div id="div-map-container">
+                                <h4>Course Directions</h4>
+                                <div id="map"></div>
+                            </div>
                         </div>
-                        <footer class="mdl-mega-footer">
-                            <div class="mdl-mega-footer__middle-section">
+                    </div>
+                    <footer class="mdl-mega-footer">
+                        <div class="mdl-mega-footer__middle-section">
 
-                                <div class="container">
-                                    <div class="row">
+                            <div class="container">
+                                <div class="row">
 
-                                        <div class="col-sm-6">
-                                        </div>
+                                    <div class="col-sm-6">
+                                    </div>
 
-                                        <div class="col-sm-6">
-                                            <h4>Contact Me</h4>
-                                            <div id="contact-form">
-                                                <form>
-                                                    <label for="name">Name:</label>
-                                                    <input class="form-control" type="text" name="name" placeholder="Jane Doe" required>
-                                                    <br>
-                                                    <label for="email">Email:</label>
-                                                    <input class="form-control" type="email" name="email" placeholder="jdoe@example.com" required>
-                                                    <br>
-                                                    <label for="message">Message:</label>
-                                                    <textarea class="form-control" rows="5" id="message" name="message" placeholder="text..." required> </textarea>
-                                                    <br>
-                                                    <button class="btn btn-success btn-block" type="submit" name="submit">Submit Message</button>
-                                                </form>
-                                            </div>
+                                    <div class="col-sm-6">
+                                        <h4>Contact Me</h4>
+                                        <div id="contact-form">
+                                            <form>
+                                                <label for="name">Name:</label>
+                                                <input class="form-control" type="text" name="name" placeholder="Jane Doe" required>
+                                                <br>
+                                                <label for="email">Email:</label>
+                                                <input class="form-control" type="email" name="email" placeholder="jdoe@example.com" required>
+                                                <br>
+                                                <label for="message">Message:</label>
+                                                <textarea class="form-control" rows="5" id="message" name="message" placeholder="text..." required> </textarea>
+                                                <br>
+                                                <button class="btn btn-success btn-block" type="submit" name="submit">Submit Message</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
 
-                            <div class="mdl-mega-footer__bottom-section">
-                                <div class="mdl-logo">Golf The Longest Day</div>
-                                <ul class="mdl-mega-footer__link-list">
-                                    <li><a href="#">Privacy & Terms</a></li>
-                                </ul>
-                            </div>
 
-                        </footer>
+                        </div>
 
-                    </div>
+                        <div class="mdl-mega-footer__bottom-section">
+                            <div class="mdl-logo">Golf The Longest Day</div>
+                            <ul class="mdl-mega-footer__link-list">
+                                <li><a href="#">Privacy & Terms</a></li>
+                            </ul>
+                        </div>
+
+                    </footer>
+
                 </div>
+                
             </main>
         </div>
     </div>
